@@ -1,0 +1,161 @@
+  {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Sign</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    
+    <nav>
+      <h1><a href="{% url 'Home' %}">Indian Sign Language Detection</a></h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">More</a></li>
+        <li><a href="#projects" class="nav-link">Sources</a></li>
+        <li><button class="cv-button"><a href="{% url 'webcam' %}">Detect</a></button></li>
+
+      </ul>
+
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="{% static '/imgs/background.jpg' %}"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title"></h2>
+        <p class="bio-text">
+            "Breaking Barriers, Empowering Communication: Sign Language Detection at its Finest!"
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Sign Language</h2>
+      <p>
+        Sign language detection is an innovative technology that aims to bridge the communication gap between individuals who use sign language and those who don't understand it. It involves the use of computer vision and machine learning techniques to interpret and understand sign language gestures and convert them into written or spoken language.
+      </p>
+      <p>
+        Sign language is a visual and gestural form of communication used primarily by individuals who are deaf or hard of hearing. It relies on a combination of hand movements, facial expressions, and body language to convey meaning. However, for individuals who do not understand sign language, this form of communication can be a barrier to effective interaction.
+      </p>
+      <p>
+        Sign language detection technology utilizes various algorithms and models to analyze video or image inputs and identify different sign language gestures. It can recognize specific hand shapes, movements, and facial expressions associated with different signs. By detecting and interpreting these gestures, the technology can convert sign language into text or speech, enabling communication between sign language users and non-signers.
+      </p>
+    </section>
+
+    <!-- Skills section
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Sources</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+
+        <a href="https://www.islrtc.nic.in/"><img src="{% static '/imgs/boximg1.jpg' %}" loading="lazy" class="icon icon-card"/></a>
+
+        <a href="https://www.youtube.com/playlist?list=PLxYMaKXKMMcMgg4f47WkG7AM0bb3AyjTi"><img src="{% static '/imgs/boximg2.jpg' %}" loading="lazy" class="icon icon-card"/></a>
+
+        <a href="https://def.org.in/indian-sign-language-classes/"><img src="{% static '/imgs/boximg2.jpg' %}" loading="lazy" class="icon icon-card"/></a>
+          
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Sources</h2>
+      <div class="projects-container">
+
+        <div class="project-container project-card">
+          <img
+            src="{% static '/imgs/learn.jpg' %}"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Learn</h3>
+          <p class="project-details">
+            Sign Language can be Learned using various methods one of the most common way is using Youtube which has its own very large collection of data.
+          </p>
+          <a href="https://www.youtube.com/playlist?list=PLxYMaKXKMMcMgg4f47WkG7AM0bb3AyjTi" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="{% static '/imgs/explore.jpg' %}"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Explore</h3>
+          <p class="project-details">
+           There are many different kinds of sign languages about 300 different sign languages which can be explored and learn from it.
+          </p>
+          <a href="https://www.ai-media.tv/ai-media-blog/sign-language-alphabets-from-around-the-world/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="{% static '/imgs/classes.jpg' %}"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Classes</h3>
+          <p class="project-details">
+          There are many Specially abled children who need to learn sign languages which can be achived by various classes available on the net.
+          </p>
+          <a href="https://def.org.in/indian-sign-language-classes/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+   
+    <button id="webcamButton">Open Webcam</button>
+    <div id="webcamPopup"></div>
+
+
+
+
+    <!-- Scroll to top -->
+    <!-- <i class="scroll-up" id="scroll-up"
+      ><img
+        src="{% static '/imgs/img1.jpg' %}"
+        class="socicon up-arrow"
+        alt=""
+    /></i> -->
+
+    
+    <!-- Website scripts -->
+    <!-- <script src="app.js"></script> -->
+
+    <!-- Ion icons scripts -->
+    <!-- <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script> -->
+  </body>
+</html>
