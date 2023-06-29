@@ -31,7 +31,7 @@ to run this project, you need the following:
 2. Change into the project directory:
   ```bash
    cd mysite
-  ```
+   ```
 
 3. Install the required Python dependencies:
    ```bash
@@ -42,7 +42,7 @@ to run this project, you need the following:
 1. Run the Django development server:
    ```bash
      python manage.py runserver
-    ```
+   ```
 2. Open a web browser and navigate to http://localhost:8000 to access the application.
 3. Allow access to your webcam when prompted.
 4. Click Detect and Perform sign language gestures in front of the webcam, and the recognized gestures will be displayed as text on the web interface.
