@@ -35,13 +35,13 @@ to run this project, you need the following:
 
 3. Install the required Python dependencies:
    ```bash
-   pip install -r requirements.txt
+     pip install -r requirements.txt
     ```
 
 ## Usage
 1. Run the Django development server:
    ```bash
-   python manage.py runserver
+     python manage.py runserver
     ```
 2. Open a web browser and navigate to http://localhost:8000 to access the application.
 3. Allow access to your webcam when prompted.
