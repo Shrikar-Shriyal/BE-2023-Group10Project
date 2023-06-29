@@ -10,7 +10,7 @@ model, collect Key point values for training and testing, pre-processing data Cr
 * Real-time hand tracking using MediaPipe library
 * LSTM-based gesture recognition model
 * Web interface for visualizing the recognized gestures as text
-* Supports multiple sign language gestures
+* Supports Indian sign language gestures
 * Easy integration with other projects or systems
 
 ## Authors
