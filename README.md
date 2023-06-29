@@ -13,5 +13,20 @@ model, collect Key point values for training and testing, pre-processing data Cr
 * Supports Indian sign language gestures
 * Easy integration with other projects or systems
 
+## Requirements
+to run this project, you need the following:
+
+* Python 3.7 or above
+* MediaPipe library (mediapipe)
+* TensorFlow (tensorflow 2.12.0)
+* OpenCV (opencv-python '4.7.0')
+* Django (django 3.2)
+
+## Installation
+1. Clone the project repository:
+   '''powershell
+   asdasdasdasdasd
+   '''
+
 ## Authors
 Akash Kamble, Rahul Chalavde, Rahul Dalvi, Shrikar Shriyal
