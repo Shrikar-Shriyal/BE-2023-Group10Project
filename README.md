@@ -54,6 +54,3 @@ Akash Kamble, Rahul Chalavde, Rahul Dalvi, Shrikar Shriyal
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request to the project repository.
-
-## License
-The project is licensed under the MIT License. Feel free to modify and use the code according to the terms of the license.
