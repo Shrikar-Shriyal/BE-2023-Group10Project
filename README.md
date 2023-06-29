@@ -24,7 +24,7 @@ to run this project, you need the following:
 
 ## Installation
 1. Clone the project repository:
-   '''powershell
+   '''bash
    asdasdasdasdasd
    '''
 
