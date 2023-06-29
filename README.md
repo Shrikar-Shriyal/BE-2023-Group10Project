@@ -24,8 +24,8 @@ to run this project, you need the following:
 
 ## Installation
 1. Clone the project repository:
-   '''bash
-   asdasdasdasdasd
+  ```bash
+   git clone https://github.com/your-username/sign-language-conversion.git
 
 ## Authors
 Akash Kamble, Rahul Chalavde, Rahul Dalvi, Shrikar Shriyal
